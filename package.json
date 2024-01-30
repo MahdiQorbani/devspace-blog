@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cache-posts": "node scripts/cache.js"
+    "cache-posts": "node scripts/cache.js",
+    "prepare": "husky"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
+    "husky": "^9.0.7",
     "postcss": "^8",
     "tailwindcss": "^3.3.0"
   }
