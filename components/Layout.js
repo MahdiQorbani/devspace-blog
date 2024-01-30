@@ -1,6 +1,7 @@
+import React from "react";
 import Head from "next/head";
 import Header from "./Header";
-import React from "react";
+import Search from "./Search";
 
 export default function Layout({ title, keywords, description, children }) {
   return (
@@ -12,6 +13,7 @@ export default function Layout({ title, keywords, description, children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <Search />
       <main className="container mx-auto my-7">{children}</main>
     </div>
   );
